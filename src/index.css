@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* Add to your Tailwind config or use inline styles */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-animated {
+  background: linear-gradient(-45deg, #1e1e2f, #5f27cd, #1e1e2f, #341f97);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
