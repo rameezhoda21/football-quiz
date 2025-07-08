@@ -569,8 +569,8 @@ const questionsByCategory = {
       answer: "Cristiano Ronaldo"
     },
     {
-      question: " Which club has the most UCL losses in a single season?",
-      options: [ "Atletico Madrid", "Valencia", "Benfica", " Olympique Lyonnais"],
+      question: "Which club has the most UCL losses in a single season?",
+      options: ["Atletico Madrid", "Valencia", "Benfica", " Olympique Lyonnais"],
       answer: "Benfica"
     },
     {
