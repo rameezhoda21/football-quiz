@@ -581,7 +581,7 @@ const questionsByCategory = {
     {
       question: "Who scored the fastest hat-trick in UCL history?",
       options: ["Raúl", "Lionel Messi", "Robert Lewandowski", "Mohammed Salah"],
-      answer: "Robert Lewandowski"
+      answer: "Mohammed Salah"
     }
   ]
 };
