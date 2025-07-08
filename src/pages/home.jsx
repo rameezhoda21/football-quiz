@@ -59,7 +59,7 @@ export default function Home() {
       ) : (
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          src="/bg1.mp4"
+          src="/background.mp4"
           autoPlay
           muted
           loop
@@ -75,9 +75,8 @@ export default function Home() {
 
         <button
           onClick={() => setSoundEnabled(!soundEnabled)}
-          className={`mb-6 px-4 py-2 rounded border ${
-            soundEnabled ? 'border-green-400 text-green-400' : 'border-gray-500 text-gray-300'
-          } bg-transparent hover:bg-white/10 transition`}
+          className={`mb-6 px-4 py-2 rounded border ${soundEnabled ? 'border-green-400 text-green-400' : 'border-gray-500 text-gray-300'
+            } bg-transparent hover:bg-white/10 transition`}
         >
           {soundEnabled ? "🔊 Audio On" : "🔇 Audio Off"}
         </button>
