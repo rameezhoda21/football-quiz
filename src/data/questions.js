@@ -148,9 +148,9 @@ const questionsByCategory = {
       answer: "Atletico Madrid"
     },
     {
-      question: "What is the nickname of FC Barcelona’s stadium?",
+      question: "What is the name of Valencia's stadium?",
       options: ["Camp Nou", "San Mamés", "Bernabéu", "Mestalla"],
-      answer: "Camp Nou"
+      answer: "Mestalla"
     },
     {
       question: "Who has won more El Clásico matches in all competitions?",
@@ -228,9 +228,9 @@ const questionsByCategory = {
       answer: "Barcelona"
     },
     {
-      question: "Who is the only player to score a hat-trick in a La Liga final match?",
-      options: ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema", "Raúl"],
-      answer: "Cristiano Ronaldo"
+      question: "Who holds the record for most goal contributions (goals + assists) in a single La Liga season?",
+      options: ["Cristiano Ronaldo", "Lionel Messi", "Karim Benzema", "Luis Suárez"],
+      answer: "Lionel Messi"
     },
     {
       question: "Which club has the most La Liga appearances?",
@@ -348,6 +348,26 @@ const questionsByCategory = {
       question: "Which country has hosted the FIFA World Cup three times?",
       options: ["Italy", "France", "Germany", "Brazil"],
       answer: "Italy"
+    },
+    {
+      question: "Who is the only player to score in five different World Cups?",
+      options: ["Cristiano Ronaldo", "Lionel Messi", "Pelé", "Diego Maradona"],
+      answer: "Cristiano Ronaldo"
+    },
+    {
+      question: "Which country has the most World Cup final appearances?",
+      options: ["Brazil", "Germany", "Italy", "Argentina"],
+      answer: "Germany"
+    },
+    {
+      question: "Who scored the first goal in the 2022 FIFA World Cup?",
+      options: ["Arda Guler", "Kylian Mbappé", "Enner Valencia", "Marcus Rashford"],
+      answer: "Enner Valencia"
+    },
+    {
+      question: "Which country has the most World Cup group stage wins?",
+      options: ["Brazil", "Germany", "Italy", "Argentina"],
+      answer: "Brazil"
     }
   ],
   "euros": [
@@ -413,7 +433,7 @@ const questionsByCategory = {
     },
     {
       question: "Which country has never won the UEFA European Championship?",
-      options: ["England", "Spain", "France", "Italy"],
+      options: [ "Spain", "France", "England", "Italy"],
       answer: "England"
     },
     {
@@ -428,7 +448,7 @@ const questionsByCategory = {
     },
     {
       question: "who won Euro 1996?",
-      options: ["Germany", "Czech Republic", "England", "France"],      
+      options: ["Czech Republic", "Germany", "England", "France"],      
       answer: "Germany"
     },
     {
@@ -550,9 +570,19 @@ const questionsByCategory = {
     },
     {
       question: " Which club has the most UCL losses in a single season?",
-      options: [ "Atletico Madrid", "Valencia", "Bnefica", " Olympique Lyonnais"],
+      options: [ "Atletico Madrid", "Valencia", "Benfica", " Olympique Lyonnais"],
       answer: "Benfica"
     },
+    {
+      question: "Which club won the first UEFA Champions League title under its current name (1992–93)?",
+      options: ["Marseille", "AC Milan", "Barcelona", "Ajax"],
+      answer: "Marseille"
+    }
+    {
+      question: "Who scored the fastest hat-trick in UCL history?",
+      options: ["Raúl", "Lionel Messi", "Robert Lewandowski", "Mohammed Salah"],
+      answer: "Robert Lewandowski"
+    }
   ]
 };
 
