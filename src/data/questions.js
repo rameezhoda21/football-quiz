@@ -577,7 +577,7 @@ const questionsByCategory = {
       question: "Which club won the first UEFA Champions League title under its current name (1992–93)?",
       options: ["Marseille", "AC Milan", "Barcelona", "Ajax"],
       answer: "Marseille"
-    }
+    },
     {
       question: "Who scored the fastest hat-trick in UCL history?",
       options: ["Raúl", "Lionel Messi", "Robert Lewandowski", "Mohammed Salah"],
