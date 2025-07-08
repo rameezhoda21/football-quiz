@@ -91,9 +91,10 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center px-4 py-10 min-h-screen">
-        <h1 className="text-4xl md:text-4xl font-extrabold mb-10 text-center uppercase tracking-widest text-white drop-shadow-lg">
-          Choose Your Arena
-        </h1>
+    <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-white to-gray-200 text-center drop-shadow-[0_0_10px_rgba(255,255,255,0.4)] mb-5">
+  Choose Your Arena
+</h1>
+
 
         {/* Transparent Audio Toggle Button */}
         <button
@@ -158,7 +159,7 @@ export default function Home() {
           🏆 View Leaderboard
         </button>
 
-    </div>
+      </div>
     </div >
   );
 }

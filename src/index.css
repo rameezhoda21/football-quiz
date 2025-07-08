@@ -11,3 +11,7 @@
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
 }
+.outlined-text {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+}
