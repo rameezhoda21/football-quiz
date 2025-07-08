@@ -574,7 +574,7 @@ const questionsByCategory = {
       answer: "Benfica"
     },
     {
-      question: "Which club won the first UEFA Champions League title under its current name (1992–93)?",
+      question: "Which club won the first UEFA Champions League title under its current name (1992-93)?",
       options: ["Marseille", "AC Milan", "Barcelona", "Ajax"],
       answer: "Marseille"
     },
